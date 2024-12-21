@@ -1,0 +1,3 @@
+# CSS Float Issue: Unexpected Div Width
+
+This repository demonstrates a common issue encountered when using the `float` property in CSS without properly setting the width of the parent container. The `bug.css` file contains the problematic CSS code, leading to unexpected div widths.  The `solution.css` file provides a solution to fix the issue.  The problem arises from the fact that floated elements only take up the space required by their content unless the parent container's width is explicitly defined. 
