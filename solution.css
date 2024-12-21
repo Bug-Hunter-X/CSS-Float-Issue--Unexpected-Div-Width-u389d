@@ -1,0 +1,25 @@
+To resolve this issue, ensure that the parent container has a defined width.  Here's a corrected version:
+
+```css
+.parent {
+  width: 100%; /* Or a specific width */
+}
+
+div {
+  width: 50%;
+  float: left;
+  box-sizing: border-box; /* Include to account for padding and border */
+}
+```
+
+Alternatively, use flexbox or grid for better control over layout and avoid potential floating issues:
+
+```css
+.parent {
+  display: flex;
+}
+
+div {
+  width: 50%;
+}
+```
