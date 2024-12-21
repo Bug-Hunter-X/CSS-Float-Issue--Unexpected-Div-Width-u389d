@@ -1,0 +1,10 @@
+The following CSS rule is causing unexpected behavior:
+
+```css
+div {
+  width: 50%;
+  float: left;
+}
+```
+
+This code intends to make two divs sit side by side, each occupying 50% of the parent container's width. However, the `float: left` property can cause issues.  If the parent container doesn't have a defined width, the divs will collapse to their content width, and not fill the full 50% intended.
